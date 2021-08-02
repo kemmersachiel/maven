@@ -2,18 +2,18 @@
 
 A RESTFUL API of a simple Blog API that covers the following problems:
 
-1. – [x] Getting all blog posts
-2. – [x] Getting blog posts with pagination
-3. – [x] Getting post by id
-4. – [x] Creating blog
-5. – [x] Updatting blog
-6. – [x] Deleting blog
-7. – [x] Adding comment to a blog post
-8. – [x] Getting single comment on a blog post
-9. – [x] Getting all comments on a blog post(as an array of objects, in each object I want to see
+– [x] Getting all blog posts
+– [x] Getting blog posts with pagination
+– [x] Getting post by id
+– [x] Creating blog
+– [x] Updatting blog
+– [x] Deleting blog
+– [x] Adding comment to a blog post
+– [x] Getting single comment on a blog post
+– [x] Getting all comments on a blog post(as an array of objects, in each object I want to see
 the comment and the comment Id.)
-10. – [x] Editing comment on a blog post using the comment Id
-11. – [x] Deleting comment on a blog post using the comment Id
+– [x] Editing comment on a blog post using the comment Id
+– [x] Deleting comment on a blog post using the comment Id
 
 ## Getting Started
 
@@ -26,6 +26,7 @@ Things you need to install the software and how to install them
 ```
 You need to have a xampp installed on your local machine
 You need to have a browser installed on your local machine
+You need to import the maven_db.sql file to your database
 ```
 
 ### Installing
@@ -37,12 +38,21 @@ First, download the zip file (maven-main.zip)
 Next, extract or unzip the file
 Next, copy the Maven folder to this directory in your local drive C:\xampp\htdocs
 so the full path of the folder should be C:\xampp\htdocs\Maven
-Next, install or inport the Maven_db.sql file
+Next, install or inport the Maven_db.sql file with the instructions below
 Next, start your apache or xampp
+```
 Next, go to your browser and past or enter this link http://localhost:8090/Maven.com/  or http://localhost:8080/Maven.com/ or click [Maven News](http://localhost:8090/Maven.com/) - to load the app.
 
 At this point you should see a page with Heading (Welcome to Maven News) and blog post list.
-```
+
+
+## Maven_db.sql installation instruction
+
+* Open your browser, copy and paste this link [PhpmyAdmin](http://localhost:8090/phpmyadmin/) and click enter
+* Click on **import**
+* Chose file. Select the maven_db.sql file from your zip files and click **Go**
+
+If you can't access the link, click [here](http://localhost:8090/phpmyadmin/) and follow the instructions again.
 
 ## Running the tests
 
