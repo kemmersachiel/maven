@@ -1,6 +1,6 @@
 # RESTFUL BLOG API
 
-A RESTFUL API of a simple Blog API that covers the following problems:
+## A RESTFUL API of a simple Blog API that covers the following problems:
 
 – [x] Getting all blog posts
 – [x] Getting blog posts with pagination
@@ -10,8 +10,7 @@ A RESTFUL API of a simple Blog API that covers the following problems:
 – [x] Deleting blog
 – [x] Adding comment to a blog post
 – [x] Getting single comment on a blog post
-– [x] Getting all comments on a blog post(as an array of objects, in each object I want to see
-the comment and the comment Id.)
+– [x] Getting all comments on a blog post(as an array of objects, in each object I want to see the comment and the comment Id.)
 – [x] Editing comment on a blog post using the comment Id
 – [x] Deleting comment on a blog post using the comment Id
 
