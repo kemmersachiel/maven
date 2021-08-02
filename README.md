@@ -2,16 +2,16 @@
 
 ## A RESTFUL API of a simple Blog API that covers the following problems:
 
-1. – [x] Getting all blog posts
-2. – [x] Getting blog posts with pagination
-3. – [x] Getting post by id
-4. – [x] Creating blog
-5. – [x] Updatting blog
-6. – [x] Deleting blog
-7. – [x] Adding comment to a blog post
-8. – [x] Getting single comment on a blog post
-9. – [x] Getting all comments on a blog post(as an array of objects, in each object I want to see the comment and the comment Id.)
-10. – [x] Editing comment on a blog post using the comment Id
+1. [x] Getting all blog posts
+2. [x] Getting blog posts with pagination
+3. [x] Getting post by id
+4. [x] Creating blog
+5. [x] Updatting blog
+6. [x] Deleting blog
+7. [x] Adding comment to a blog post
+8. [x] Getting single comment on a blog post
+9. [x] Getting all comments on a blog post(as an array of objects, in each object I want to see the comment and the comment Id.)
+10. [x] Editing comment on a blog post using the comment Id
 11. [x] Deleting comment on a blog post using the comment Id
 
 ## Getting Started
