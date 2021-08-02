@@ -49,9 +49,9 @@ At this point you should see a page with Heading (Welcome to Maven News) and blo
 
 * Open your browser, copy and paste this link [PhpmyAdmin](http://localhost:8090/phpmyadmin/) and click enter
 * Click on **import**
-* Chose file. Select the maven_db.sql file from your zip files and click **Go**
+* Chose file. Select the **maven_db.sql** file from your zip files and click **Go**
 
-If you can't access the link, click [here](http://localhost:8090/phpmyadmin/) and follow the instructions again.
+If you can't access the link, click [here](http://localhost:8080/phpmyadmin/) and follow the instructions again.
 
 ## Running the tests
 
