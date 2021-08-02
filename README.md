@@ -39,7 +39,7 @@ Next, copy the Maven folder to this directory in your local drive C:\xampp\htdoc
 so the full path of the folder should be C:\xampp\htdocs\Maven
 Next, install or inport the Maven_db.sql file
 Next, start your apache or xampp
-Next, go to your browser and past or enter this link http://localhost:8090/Maven.com/  or http://localhost:8080/Maven.com/ or click [Maven News](http://localhost:8090/Maven.com/) to load the app.
+Next, go to your browser and past or enter this link http://localhost:8090/Maven.com/  or http://localhost:8080/Maven.com/ or click [Maven News](http://localhost:8090/Maven.com/) - to load the app.
 
 At this point you should see a page with Heading (Welcome to Maven News) and blog post list.
 ```
