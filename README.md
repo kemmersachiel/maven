@@ -33,11 +33,11 @@ You need to have a browser installed on your local machine
 A step by step series of examples that tell you how to get a development env running
 
 ```
-First, download the zip file (Maven.zip)
+First, download the zip file (maven-main.zip)
 Next, extract or unzip the file
 Next, copy the Maven folder to this directory in your local drive C:\xampp\htdocs
 so the full path of the folder should be C:\xampp\htdocs\Maven
-Next, install or inport the *Maven_db.sql* file
+Next, install or inport the ** Maven_db.sql ** file
 Next, start your apache or xampp
 Next, go to your browser and past or enter this link http://localhost:8090/Maven.com/  or http://localhost:8080/Maven.com/
 
