@@ -1,6 +1,6 @@
 # RESTFUL BLOG API
 
-A RESTFUL API of a simple Blog API that covers the following problems:
+A RESTFUL API of a simple Blog API that covers the following problems :
 
 1. – [x] Getting all blog posts
 2. – [x] Getting blog posts with pagination
