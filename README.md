@@ -30,8 +30,6 @@ You need to import the maven_db.sql file to your database
 
 Download <a href="https://www.apachefriends.org/download.html">**Xampp**</a>
 
-Download <a href="https://github.com/kemmersachiel/maven/archive/refs/heads/main.zip">**maven-main.zip**</a>
-
 
 ### Installing
 
@@ -52,11 +50,11 @@ How to install Application's Database
 * Copy and paste this link [PhpmyAdmin](http://localhost/phpmyadmin/) on your browser
 * Click on **import**
 * Click on **Choose File** and select the **maven_db.sql** file from your zip files and click **Go**.
-* Click [Maven.com](http://localhost/maven-main/) to access the Application.
+* Click [maven-main](http://localhost/maven-main/) to access the Application.
 
 **Note:** If you can't access phpmyadmin, chech your Xampp installation again.
 
-At this point, you have successfully completed your Installation and your Testing Environment is ready. Click [Maven.com](http://localhost/maven-main/) to access the Application.
+At this point, you have successfully completed your Installation and your Testing Environment is ready. Click [maven-main](http://localhost/maven-main/) to access the Application.
 
 ## Running and Testing the Application
 
