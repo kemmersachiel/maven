@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Aug 02, 2021 at 04:02 PM
+-- Generation Time: Oct 07, 2021 at 02:27 PM
 -- Server version: 10.4.11-MariaDB
 -- PHP Version: 7.4.6
 
@@ -154,7 +154,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`id`, `name`, `email`, `password`, `role`, `created`, `modified`) VALUES
-(1, 'Kemmer Sachiel', 'sachiel.kemmer@gmail.com', '$2y$10$2N57OhwlRMD8a4yPsDzpAO8EtAqeUboLvK0/RDzLriSxRTG25p5rC', 'admin', '2021-08-01 20:27:46', '2021-08-01 20:27:46');
+(1, 'Kemmer Sachiel', 'defaultuser@email.com', '$2y$10$2N57OhwlRMD8a4yPsDzpAO8EtAqeUboLvK0/RDzLriSxRTG25p5rC', 'admin', '2021-08-01 20:27:46', '2021-08-01 20:27:46');
 
 --
 -- Indexes for dumped tables
