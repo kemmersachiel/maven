@@ -10,7 +10,7 @@
 6. [x] Deleting blog
 7. [x] Adding comment to a blog post
 8. [x] Getting single comment on a blog post
-9. [x] Getting all comments on a blog post(as an array of objects, in each object I want to see the comment and the comment Id.)
+9. [x] Getting all comments on a blog post
 10. [x] Editing comment on a blog post using the comment Id
 11. [x] Deleting comment on a blog post using the comment Id
 
@@ -23,7 +23,7 @@ These instructions will get you a copy of the project up and running on your loc
 Things you need to install the software and how to install them
 
 ```
-You need to have a xampp installed on your local machine
+You need to have a [Xampp](https://www.apachefriends.org/download.html) installed on your local machine
 You need to have a browser installed on your local machine
 You need to import the maven_db.sql file to your database
 ```
@@ -33,14 +33,14 @@ You need to import the maven_db.sql file to your database
 A step by step series of examples that tell you how to get a development env running
 
 ```
-First, download the zip file (maven-main.zip)
+First, after downloading and installing Xampp on your machine, download the zip file (maven-main.zip)
 Next, extract or unzip the file
-Next, copy the Maven folder to this directory in your local drive C:\xampp\htdocs
-so the full path of the folder should be C:\xampp\htdocs\Maven
-Next, install or inport the Maven_db.sql file with the instructions below
+Next, copy the Maven folder to this directory in your local drive C:\xampp\htdocs.
+So the full path of the folder should be C:\xampp\htdocs\maven-main
+Next, install or inport the maven_db.sql file with the instructions below
 Next, start your apache or xampp
 ```
-Next, go to your browser and past or enter this link http://localhost:8090/Maven.com/  or http://localhost:8080/Maven.com/ or click [Maven News](http://localhost:8090/Maven.com/) - to load the app.
+Next, go to your browser and past or enter this link http://localhost:8090/maven-main/  or http://localhost:8080/maven-main/ or click [Maven News](http://localhost:8090/maven-main/) - to load the app.
 
 At this point you should see a page with Heading (Welcome to Maven News) and blog post list.
 
@@ -71,7 +71,7 @@ To View, Edit or Delete a Category, Post or Comment, go to Action and sellect vi
 ```
 To create a post, you need to have an account. Basic Login & Registration was integrated. You can test both by creating a new user account, or login with the default user account details:
 
-Email: sachiel.kemmer@gmail.com
+Email: defaultuser@email.com
 Password: password
 
 Deleting a Blog Post also deletes all Associated Comments.
