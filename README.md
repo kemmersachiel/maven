@@ -23,7 +23,7 @@ These instructions will get you a copy of the project up and running on your loc
 Things you need to install the software and how to install them
 
 ```
-You need to have a [Xampp](https://www.apachefriends.org/download.html) installed on your local machine
+You need to have a <a href="https://www.apachefriends.org/download.html">Xampp</a> installed on your local machine
 You need to have a browser installed on your local machine
 You need to import the maven_db.sql file to your database
 ```
