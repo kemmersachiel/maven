@@ -16,48 +16,52 @@
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
+These instructions will get you a copy of the project up and running on your local machine for testing purposes.
 
 ### Prerequisites
 
-Things you need to install the software and how to install them
-
-Download <a href="https://www.apachefriends.org/download.html">Xampp</a>
+Things you need to install and download in order to test the application.
 
 ```
 You need to have a Xampp installed on your local machine
-You need to have a browser installed on your local machine
+You need to download the Maven-main.zip file to your local machine
 You need to import the maven_db.sql file to your database
 ```
 
+Download <a href="https://www.apachefriends.org/download.html">**Xampp**</a>
+
+Download <a href="https://github.com/kemmersachiel/maven/archive/refs/heads/main.zip">**maven-main.zip**</a>
+
+
 ### Installing
 
-A step by step series of examples that tell you how to get a development env running
+A step by step series of examples that tells you how to get a testing environment running.
 
 ```
-First, after downloading and installing Xampp on your machine, download the zip file (maven-main.zip)
-Next, extract or unzip the file
-Next, copy the Maven folder to this directory in your local drive C:\xampp\htdocs.
-So the full path of the folder should be C:\xampp\htdocs\maven-main
-Next, install or inport the maven_db.sql file with the instructions below
-Next, start your apache or xampp
+1. Download and install Xampp on your local machine.
+2. Download the mavin-main.zip file and extract or unzip the file to this directory in your local drive C:\xampp\htdocs.
+   So the full path to the folder should be C:\xampp\htdocs\maven-main\
+3. Read and follow the Database Installation Instructions bellow.
 ```
-Next, go to your browser and past or enter this link http://localhost:8090/maven-main/  or http://localhost:8080/maven-main/ or click [Maven News](http://localhost:8090/maven-main/) - to load the app.
-
-At this point you should see a page with Heading (Welcome to Maven News) and blog post list.
 
 
-## Maven_db.sql installation instruction
+## Database Installation Instructions
 
-* Open your browser, copy and paste this link [PhpmyAdmin](http://localhost:8090/phpmyadmin/) and click enter
+How to install Application's Database
+
+* Copy and paste this link [PhpmyAdmin](http://localhost/phpmyadmin/) on your browser
 * Click on **import**
-* Chose file. Select the **maven_db.sql** file from your zip files and click **Go**
+* Click on **Choose File** and select the **maven_db.sql** file from your zip files and click **Go**.
+* Click [Maven.com](http://localhost/maven-main/) to access the Application.
 
-If you can't access the link, click [here](http://localhost:8080/phpmyadmin/) and follow the instructions again.
+**Note:**
+1. If you can't access phpmyadmin, chech your Xampp installation again.
 
-## Running the tests
+At this point, you have successfully completed your Installation and your Testing Environment is ready. Click [Maven.com](http://localhost/maven-main/) to access the Application.
 
-How to run the automated tests for this app
+## Running and Testing the Application
+
+How to run the automated tests for this Application
 
 ```
 First, Register or Login a new/default user (Default Login Details Below). Go to Account -> Login/Register.
@@ -68,22 +72,25 @@ Next, Add a coment. To create a Comment on a Post, go to New Comment, enter your
 To View, Edit or Delete a Category, Post or Comment, go to Action and sellect view, edit or delete.
 ```
 
-### Areas & Actions to check
+### Areas & Actions to Check
 
 ```
-To create a post, you need to have an account. Basic Login & Registration was integrated. You can test both by creating a new user account, or login with the default user account details:
+1. To create a post, you need to have an account.
+2. Basic Login & Registration was integrated.
+3. You can test both by creating a new user account, or login with the default user account details:
 
 Email: defaultuser@email.com
 Password: password
 
-Deleting a Blog Post also deletes all Associated Comments.
-Deleting a Category also deletes all Associated Posts.
-Deleting a User also deletes all Associated Categories, Post/Tags & Comments.
+4. Deleting a Blog Post also deletes all Associated Comments.
+5. Deleting a Category also deletes all Associated Posts.
+6. Deleting a User also deletes all Associated Categories, Post/Tags & Comments.
+7. Pagination was also implemented.
 
-Pagination was also implemented.
+This Application is just for Testing Purposes, much more can be done on a live project with other frameworks.
 ```
 
-## Built With
+## Application Built With
 
 * [CakePHP](https://cakephp.org/) - The web framework used
 * [Composer](https://getcomposer.org/) - Dependency Management
