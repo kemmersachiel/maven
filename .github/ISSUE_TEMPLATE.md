@@ -1,7 +1,7 @@
 This is a (multiple allowed):
 
 * [x] bug
-* [ ] enhancement
+* [x] enhancement
 * [ ] feature-discussion (RFC)
 
 * CakePHP Application Skeleton Version: EXACT RELEASE VERSION OR COMMIT HASH, HERE.

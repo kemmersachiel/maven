@@ -39,7 +39,7 @@ use Cake\Routing\Route\DashedRoute;
  * inconsistently cased URLs when used with `:plugin`, `:controller` and
  * `:action` markers.
  *
- * Cache: Routes are cached to improve performance, check the RoutingMiddleware
+ * Cache: Routes are cached to improve performance, check the RoutingMiddleware.
  * constructor in your `src/Application.php` file to change this behavior.
  *
  */
