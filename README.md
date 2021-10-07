@@ -14,6 +14,13 @@
 10. [x] Editing comment on a blog post using the comment Id
 11. [x] Deleting comment on a blog post using the comment Id
 
+## Table of Contents
+
+* [Getting Started](#getting-started)
+* [Database Installation Instructions](#database-installation-instructions)
+* [Running and Testing the Application](#running-and-testing-the-application)
+* [Application Built With](#application-built-with)
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for testing purposes.
