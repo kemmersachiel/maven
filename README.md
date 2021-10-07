@@ -60,7 +60,7 @@ How to install Application's Database
 * Click on **Choose File** and select the **maven_db.sql** file from your zip files and click **Go**.
 * Click [maven-main](http://localhost/maven-main/) to access the Application.
 
-**Note:** If you can't access phpmyadmin, chech your Xampp installation again.
+**Note:** If you can't access phpmyadmin, check your Xampp installation again.
 
 At this point, you have successfully completed your Installation and your Testing Environment is ready. Click [maven-main](http://localhost/maven-main/) to access the Application.
 
