@@ -1,5 +1,5 @@
-# RESTFUL BLOG API ()
-![Product Gif](https://github.com/kemmersachiel/maven/tree/main/webroot/img/banner.PNG)
+# RESTFUL BLOG API
+![Product Gif](https://github.com/kemmersachiel/maven/blob/main/webroot/img/banner.PNG)
 ## A RESTFUL API of a simple Blog API that covers the following problems:
 
 1. [x] Getting all blog posts
